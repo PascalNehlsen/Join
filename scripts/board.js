@@ -1,8 +1,6 @@
 let popup = document.getElementById('dialog-container');
 let taskDialog = document.querySelector('.task-dialog');
 const BASE_URL = 'https://join-2024-default-rtdb.europe-west1.firebasedatabase.app/';
-// let tasks = [];
-// let allDataFromFirebase = [];
 
 function saveTasks() {
   localStorage.setItem('tasks', JSON.stringify(tasks));
@@ -34,6 +32,7 @@ function init(params) {
  * @param {Object|null} [parameter=null] - Optional parameter to specify the task category.
  */
 function openTaskDialog(parameter = null) {
+
   formHasErrorTask = false;
   popup.style.display = 'unset';
   setTimeout(function () {
@@ -237,9 +236,8 @@ function renderSubtasksInBoardCards(i) {
     progressDiv.style.display = 'flex';
     progressDiv.innerHTML += /*html*/ `
                <div class="outer-progress-bar">
-                  <div class="inner-progress-bar" style="width:${
-                    (finishedSubtasks * 100) / subtasksLength
-                  }%;"></div>
+                  <div class="inner-progress-bar" style="width:${(finishedSubtasks * 100) / subtasksLength
+      }%;"></div>
                </div>
            <div>${finishedSubtasks}/${subtasksLength}</div>
       `;

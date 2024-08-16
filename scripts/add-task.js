@@ -497,6 +497,14 @@ function minDate() {
    dateInput.oninput = function (event) {
       event.target.setCustomValidity('');
    };
+
+   dateInput.addEventListener('input', function () {
+      let value = dateInput.value;
+      if (value.length > 10) {
+         value = value.substring(0, 10);
+         dateInput.value = value;
+      }
+   });
 }
 
 /**

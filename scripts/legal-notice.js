@@ -28,8 +28,6 @@ function loadLegalNoticeContentHTML(params) {
           </div>
           <h2>Imprint</h2>
           <ul style="cursor: auto">
-            <ul><span style="font-weight: bold">Vanessa Sachs</span>  <br> Testweg 12 <br> 05484 Berlin</ul> <br>
-            <ul><span style="font-weight: bold">Rene Lochschmidt</span> <br> Siedlerstrasse 1a <br> 82256 Fürstenfeldbruck</ul> <br>
             <ul><span style="font-weight: bold">Pascal Nehlsen</span> <br> Lüffringhauser Weg 12 <br> 42929 Wermelskirchen</ul>
           </ul>
           <h3>Exploring the Board</h3>
@@ -73,7 +71,7 @@ function loadLegalNoticeContentHTML(params) {
             You agree to indemnify, defend and hold harmless us, the listed students, the Developer Akademie, and our affiliates,
             partners, officers, directors, agents, and employees, from and against any claim, demand, loss, damage, cost, or
             liability (including reasonable legal fees) arising out of or relating to your use of Join and/or your breach of this
-            Legal Notice. For any questions or notices, please contact us at [Contact Email]. Date: July 26, 2023
+            Legal Notice. For any questions or notices, please contact us at mail@pascal-nehlsen.de. Date: July 26, 2024
           </p>
         </div>
       `;
